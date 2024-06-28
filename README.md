@@ -1,7 +1,7 @@
 blink.js
 ========
 
-> Easy GPGPU on the web, powered by WebGL 2.0.
+> Easy GPGPU on node, powered by headless-gl.
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
@@ -10,7 +10,6 @@ blink.js
 
 __blink.js__ (not to be confused with [Blink](https://www.chromium.org/blink), the Chromium render engine) is a small, easy to use GPGPU library for the web, exploiting the power of WebGL 2.0.
 
-Please note: __blink.js__ uses its own WebGL 2.0 context. Which means it's not pluggable with other WebGL frameworks. Though, theoretically, you could use blink.js' context as your main WebGL context.
 
 ## Table of contents
 - [Installation](#installation)
